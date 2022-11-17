@@ -1,0 +1,15 @@
+
+.form-card{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px;
+}
+.value{
+    margin:20px 0px;
+    width:90%;
+    height:35px;
+}
+
+
