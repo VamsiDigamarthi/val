@@ -33,7 +33,7 @@ class App extends Component {
       },
       body: JSON.stringify(userDetails)
     }
-    const response = await fetch('http://localhost:4001/add', options)
+    const response = await fetch('https://vamsi-first.herokuapp.com/add', options)
     const data = await response.json()
     console.log(data)
     this.valueAny()
@@ -44,7 +44,7 @@ class App extends Component {
     const options = {
       methos: "GET"
     }
-    const response = await fetch('http://localhost:4001',options)
+    const response = await fetch('https://vamsi-first.herokuapp.com',options)
     const data = await response.json()
     console.log(data)
     console.log("apis")
